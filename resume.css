@@ -1,0 +1,66 @@
+.mainDiv{
+
+  display: flex;
+  justify-content: space-between;
+}
+.leftDiv{
+  background: #f2f2f2;
+  width: 25%;
+  height: auto;
+  margn-right: 70%;
+  position: fixed;
+
+}
+.rightDiv{
+  background: #f2f2f2;
+  width: 74%;
+  padding: 10px;
+  height: auto;
+  margin-left: 26%;
+}
+.lc1{
+margin-top: 10px;
+}
+img{
+  height: 50%;
+  width: 50%;
+}
+body{
+  background:  #ffb3b3;
+  font-family: cursive;
+}
+@media all and (max-width:768px){
+   body{
+    background: #ffb3b3;
+  }
+  .mainDiv{
+     width: 100%;
+    flex-wrap: wrap;
+  }
+  .leftDiv{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: 0%; 
+    display: flex;
+  }
+  .rightDiv{
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+@media all and (min-width:360px) and (max-width:499px){
+  .mainDiv{
+    background: #addeea;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .leftDiv{
+    position: relative;
+    width: 100%;
+    display: flex;
+  }
+  .rightDiv{
+    width: 100%;
+  }
+}
